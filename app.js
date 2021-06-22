@@ -66,3 +66,50 @@ function calculateSecondsInADay(hours = 24) {
 
 let result5 = calcuateAgeInSeconds(num1);
 alert(result5);
+
+//going over excercise 1
+//declare a functin, take a count (number) as a parameter, print odd from 1 to n
+function printdOdds(count){
+for (let i = 1; i <= count; i+=2) {
+    console.log(i)
+    }
+}
+console.log(i) ;     //nothing will happen
+printOdds(100);     //count up to 100
+printOdds();        //never runs count is undefined and will be false
+printOdds(12);
+
+
+//excercise 2
+// declare function, take in name and age, check age vs 16, diplay message
+
+function canDrive (name1, age) {
+    let message; 
+    if (age >=16) {
+        message = "Phew! You've been able to drive fore ${age-16}";
+    }
+    else {
+        message = "oh no. You wante to wait $16-age} years before you can drive";
+
+    }
+    console.log(message);
+}
+ //to ask for age
+ canDrive("Ben", 12) //to test
+ let userName = prompt("what is your name");
+ let age = prompt("What is your age?")
+
+ //or
+ let userName = prompt("what is your name");
+ let age = prompt("What is your age?")
+ if (!age)
+ let message; 
+ if (age >=16) {
+    message = "Phew! You've been able to drive for ${age - 16} years."; //not working correctly
+}
+else {
+    message = "oh no. You wante to wait ${16-age} years before you can drive";
+
+}
+
+alert(message);
