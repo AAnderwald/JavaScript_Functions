@@ -6,7 +6,7 @@ function printOdds(count) {
 }
 
 //bonus
-if (count = negative)
+//if (count = negative)
 
 
 //excercise 2
@@ -14,9 +14,9 @@ if (count = negative)
 function checkAge (userName, age) {
     let aboveSixteen = "Congrats $(userName), you can drive!";
     let belowSixteen = "Sorry $(userName), but you need to wait until you're16.";
-        if (age > 16) { console.log(belowSixteen);}
-        else {console.log(avoveSixteen);}
+        if (age < 16) { console.log(belowSixteen);}
+        else {console.log(aboveSixteen);}
     }
 
-    
+
 //bonus
