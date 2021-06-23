@@ -21,8 +21,8 @@ function printOdds(count) {
 //excercise 2
 
 function checkAge (userName, age) {
-    let aboveSixteen = "Congrats $(userName), you can drive!";
-    let belowSixteen = "Sorry $(userName), but you need to wait until you're16.";
+    let aboveSixteen = `Congrats $(userName), you can drive!`;
+    let belowSixteen = `Sorry $(userName), but you need to wait until you're16.`;
         if (age < 16) { console.log(belowSixteen);}
         else {console.log(aboveSixteen);}
        }
@@ -35,10 +35,10 @@ let age = prompt("What is your age?")
 if (!age);
 let message; 
 if (age >=16) {
-   message = "Phew! You've been able to drive for ${age-16} years";
+   message = `Phew! You've been able to drive for ${age-16} years`;
 }
 else {
-   message = "oh no. You wante to wait $16-age} years before you can drive";
+   message = `oh no. You wante to wait $16-age} years before you can drive`;
 
 }
 alert(message);

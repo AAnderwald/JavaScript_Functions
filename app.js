@@ -86,10 +86,10 @@ printOdds(12);
 function canDrive (name1, age) {
     let message; 
     if (age >=16) {
-        message = "Phew! You've been able to drive fore ${age-16}";
+        message = `Phew! You've been able to drive fore ${age-16}`;
     }
     else {
-        message = "oh no. You wante to wait $16-age} years before you can drive";
+        message = `oh no. You wante to wait ${16-age} years before you can drive`;
 
     }
     console.log(message);
@@ -105,10 +105,10 @@ function canDrive (name1, age) {
  if (!age)
  let message; 
  if (age >=16) {
-    message = "Phew! You've been able to drive for ${age - 16} years."; //not working correctly
+    message = `Phew! You've been able to drive for ${age - 16} years.`; 
 }
 else {
-    message = "oh no. You wante to wait ${16-age} years before you can drive";
+    message = `oh no. You wante to wait ${16-age} years before you can drive`;
 
 }
 
